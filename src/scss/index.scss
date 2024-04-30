@@ -1,0 +1,30 @@
+@import "./mixins";
+@import "./var";
+@import "./cdn.scss";
+@import "./features.scss";
+@import "./header.scss";
+@import "./team.scss";
+@import "./work.scss";
+@import "./slider.scss";
+@import "./download.scss";
+@import "footer.scss";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Raleway", "Anton", "Gruppo", "Poiret One", "Cardo", sans-serif;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+.grid-work {
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 115px;
+}
